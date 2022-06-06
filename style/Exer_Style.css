@@ -1,0 +1,188 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+    border:0;
+    font:inherit;
+    font-size:100%;
+    margin:0;
+    padding:0;
+    vertical-align:baseline;
+}
+
+
+    
+#container{
+    max-width: 800px;
+    width: 90%;
+    margin: 30px auto;
+    border: 2px solid rgb(133, 127, 127);
+}
+
+.clear{clear: both; background-color: aquamarine;}
+
+
+/* -------------------header information---------------- */
+
+#headerDetail{
+    height: 200px;
+}
+
+#avatarArea{
+    width: 35%;
+    height: 100%;
+    background-color: #f9f5e8;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#avatar{
+    width: 60%;
+}
+
+#avatar img{
+    width: 100%;
+    -webkit-border-radius: 50px;
+	border-radius: 50%;
+}
+
+#authorName{
+    width: 65%;
+    height: 100%;
+    float: right;
+    box-sizing: border-box;
+    padding: 30px;
+    background-color: #f1b79d;
+}
+
+#authorName h1 {
+	font-size: 2.2em;
+	font-weight: 600;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+}
+
+#authorName h2 {
+	font-size: 1.7em;
+	margin-left: 2px;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+}
+
+/* ~~~~~~~~~~~~~~~~~~ header information ~~~~~~~~~~~~~~~~ */
+
+
+/* -------------------mainForm---------------- */
+#mainForm{
+    display: flex;
+}
+/*>>>>>>>leftArea>>>>>> */
+#leftArea{
+    width: 35%;
+    background-color: #505c69;
+    color: white;
+    box-sizing: border-box;
+    padding: 40px 20px;
+}
+
+#leftArea section:not(:first-child){
+    margin-top: 40px;
+}
+
+#leftArea .sectionTitle{
+    border-bottom: 2px solid #f1b79d;
+    padding-bottom: 5px;
+}
+
+#leftArea ul{
+    /* margin-left: 0px; */
+}
+
+#leftArea section h1{
+    font-size: 1.5em;
+	font-weight: 500;
+}
+
+#leftArea article{
+    margin-top: 15px;
+}
+
+#leftArea article h2{
+    font-size: 1em;
+	font-weight: 500;
+    color: #f1b79d;
+}
+
+#leftArea article p{
+    font-size: 0.9em;
+	font-weight: 100;
+}
+
+#leftArea .articleContent{
+    margin-top: 10px;
+}
+
+#rightArea{
+    width: 65%;
+    float: right;
+    background-color: white;
+}
+
+/*<<<<<<<<leftArea<<<<<<< */
+
+/*>>>>>>>rightArea>>>>>> */
+#rightArea{
+    width: 65%;
+    box-sizing: border-box;
+    padding: 40px 30px;
+}
+
+#rightArea section:not(:first-child){
+    margin-top: 40px;
+}
+
+#rightArea .sectionTitleArea{
+    background-color: #f1b79d;
+}
+
+#rightArea .sectionTitleArea h1{
+    background-color: #505c69;
+    width: 77%;
+    padding: 5px;
+}
+
+
+#rightArea section h1{
+    font-size: 1.5em;
+	font-weight: 500;
+    color: white;
+}
+
+#rightArea article{
+    margin-top: 20px;
+}
+
+#rightArea article h2{
+    font-size: 1.3em;
+	font-weight: 800;
+    color: #505c69;
+}
+
+.subDetail{
+    margin-top: 5px;
+    font-size: 1em;
+	font-weight: 600;
+    color: #f1b79d;
+}
+
+.period{
+    margin-top: 5px;
+    font-size: 1.1em;
+	font-weight: 700;
+    color: #505c69;
+}
+
+.articleContent{
+    margin-top: 5px;
+}
+
+/*<<<<<<<<rightArea<<<<<<< */
+
+/* ~~~~~~~~~~~~~~~~~~ mainForm~~~~~~~~~~~~~~~~ */
